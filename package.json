@@ -8,6 +8,7 @@
     "dev": "vite --host",
     "build": "vite build",
     "serve": "vite preview --host",
+    "test:coverage": "jest --collect-coverage",
     "test": "jest"
   },
   "repository": {

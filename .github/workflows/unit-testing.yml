@@ -1,11 +1,10 @@
 name: Unit-Testing
 
 on:
-  # set triggers here, like on push or on release
-  workflow_dispatch:
   push:
     branches: [ main ]
   pull_request:
+    branches: [ main ]
 
 jobs:
   deploy:
@@ -20,8 +19,9 @@ jobs:
         run: yarn install
 
       - name: Testing
-        run: yarn test
-
+        run: yarn test:coverage
+        env:
+          CI: true
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
         with:
