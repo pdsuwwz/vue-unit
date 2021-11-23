@@ -1,7 +1,10 @@
-# Vue 3 + Vite
+# vue-unit
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Recommended IDE Setup
+[![Deploy](https://github.com/pdsuwwz/vue-unit/workflows/Unit-Testing/badge.svg)](https://github.com/pdsuwwz/vue-unit/actions/workflows/unit-testing.yml)
+[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/pdsuwwz/vue-unit/Unit-Testing/main)](https://github.com/pdsuwwz/vue-unit/deployments/activity_log)
+[![codecov](https://codecov.io/gh/pdsuwwz/vue-unit/branch/main/graph/badge.svg)](https://codecov.io/gh/pdsuwwz/vue-unit)
+[![Author](https://img.shields.io/badge/Author-Wisdom-9cf)](https://github.com/pdsuwwz)
+[![License](https://img.shields.io/github/license/pdsuwwz/vite-starter?color=blue)](https://github.com/pdsuwwz/vite-starter/blob/master/LICENSE)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+Unit Test for Vue
