@@ -4,12 +4,13 @@ import { ref } from 'vue'
 defineProps({
   msg: String
 })
-
+const isProd = import.meta.env.PROD
 const count = ref(0)
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
+  <p>is production: {{ isProd }}</p>
 
   <p>
     Recommended IDE setup:
