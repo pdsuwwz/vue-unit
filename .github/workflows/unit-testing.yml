@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: pnpm/action-setup@v2.0.1
         with:
-          node-version: 12.20.x
+          version: 6.23.x
 
       - name: Install dependencies
         run: pnpm i
