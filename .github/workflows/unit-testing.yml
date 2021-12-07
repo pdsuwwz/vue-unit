@@ -16,10 +16,10 @@ jobs:
           node-version: 12.20.x
 
       - name: Install dependencies
-        run: yarn install
+        run: pnpm i
 
       - name: Testing
-        run: yarn test:coverage
+        run: pnpm test:coverage
         env:
           CI: true
       - name: Codecov
