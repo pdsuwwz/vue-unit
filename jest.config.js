@@ -1,9 +1,9 @@
 module.exports = {
   testEnvironment: 'jsdom',
 
-  moduleFileExtensions: ["js", "vue"],
+  moduleFileExtensions: ['js', 'vue'],
   moduleNameMapper: {
-    "^@/(.*)$": "<rootDir>/src/$1"
+    '^@/(.*)$': '<rootDir>/src/$1'
   },
 
   testMatch: ['<rootDir>/__tests__/**/*.spec.js'],
@@ -15,7 +15,7 @@ module.exports = {
   },
 
   coverageDirectory: 'coverage',
-  coverageProvider: "v8",
+  coverageProvider: 'v8',
   collectCoverageFrom: [
     'src/**/*.{js,vue}',
     '!src/main.js',
