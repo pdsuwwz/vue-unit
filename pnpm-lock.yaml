@@ -4,7 +4,7 @@ specifiers:
   '@babel/core': ^7.16.5
   '@babel/eslint-parser': ^7.16.5
   '@babel/preset-env': ^7.16.5
-  '@vitejs/plugin-vue': ^1.10.2
+  '@vitejs/plugin-vue': ^2.0.1
   '@vue/test-utils': ^2.0.0-rc.18
   '@vue/vue3-jest': ^27.0.0-alpha.4
   babel-jest: ^27.4.5
@@ -16,7 +16,7 @@ specifiers:
   eslint-plugin-vue: ^8.2.0
   jest: ^27.4.5
   jest-transform-stub: ^2.0.0
-  vite: ^2.7.7
+  vite: ^2.7.9
   vue: ^3.2.26
 
 dependencies:
@@ -26,7 +26,7 @@ devDependencies:
   '@babel/core': 7.16.5
   '@babel/eslint-parser': 7.16.5_@babel+core@7.16.5+eslint@8.5.0
   '@babel/preset-env': 7.16.5_@babel+core@7.16.5
-  '@vitejs/plugin-vue': 1.10.2_vite@2.7.7
+  '@vitejs/plugin-vue': 2.0.1_vite@2.7.9+vue@3.2.26
   '@vue/test-utils': 2.0.0-rc.18_vue@3.2.26
   '@vue/vue3-jest': 27.0.0-alpha.4_8acd54de78e3d9ec0e97cd52dd71ecf8
   babel-jest: 27.4.5_@babel+core@7.16.5
@@ -38,7 +38,7 @@ devDependencies:
   eslint-plugin-vue: 8.2.0_eslint@8.5.0
   jest: 27.4.5
   jest-transform-stub: 2.0.0
-  vite: 2.7.7
+  vite: 2.7.9
 
 packages:
 
@@ -1552,13 +1552,15 @@ packages:
       '@types/yargs-parser': 20.2.1
     dev: true
 
-  /@vitejs/plugin-vue/1.10.2_vite@2.7.7:
-    resolution: {integrity: sha512-/QJ0Z9qfhAFtKRY+r57ziY4BSbGUTGsPRMpB/Ron3QPwBZM4OZAZHdTa4a8PafCwU5DTatXG8TMDoP8z+oDqJw==}
+  /@vitejs/plugin-vue/2.0.1_vite@2.7.9+vue@3.2.26:
+    resolution: {integrity: sha512-wtdMnGVvys9K8tg+DxowU1ytTrdVveXr3LzdhaKakysgGXyrsfaeds2cDywtvujEASjWOwWL/OgWM+qoeM8Plg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
+      vue: ^3.2.25
     dependencies:
-      vite: 2.7.7
+      vite: 2.7.9
+      vue: 3.2.26
     dev: true
 
   /@vue/compiler-core/3.2.26:
@@ -1968,8 +1970,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001292
-      electron-to-chromium: 1.4.28
+      caniuse-lite: 1.0.30001294
+      electron-to-chromium: 1.4.29
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -2007,8 +2009,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001292:
-    resolution: {integrity: sha512-jnT4Tq0Q4ma+6nncYQVe7d73kmDmE9C3OGTx3MvW7lBM/eY1S1DZTMBON7dqV481RhNiS5OxD7k9JQvmDOTirw==}
+  /caniuse-lite/1.0.30001294:
+    resolution: {integrity: sha512-LiMlrs1nSKZ8qkNhpUf5KD0Al1KCBE3zaT7OLOwEkagXMEDij98SiOovn9wxVGQpklk9vVC/pUSqgYmkmKOS8g==}
     dev: true
 
   /chalk/2.4.2:
@@ -2238,8 +2240,8 @@ packages:
       webidl-conversions: 5.0.0
     dev: true
 
-  /electron-to-chromium/1.4.28:
-    resolution: {integrity: sha512-Gzbf0wUtKfyPaqf0Plz+Ctinf9eQIzxEqBHwSvbGfeOm9GMNdLxyu1dNiCUfM+x6r4BE0xUJNh3Nmg9gfAtTmg==}
+  /electron-to-chromium/1.4.29:
+    resolution: {integrity: sha512-N2Jbwxo5Rum8G2YXeUxycs1sv4Qme/ry71HG73bv8BvZl+I/4JtRgK/En+ST/Wh/yF1fqvVCY4jZBgMxnhjtBA==}
     dev: true
 
   /emittery/0.8.1:
@@ -4677,8 +4679,8 @@ packages:
       source-map: 0.7.3
     dev: true
 
-  /vite/2.7.7:
-    resolution: {integrity: sha512-Nm4ingl//gMSj/p1aCBHuTc5Fd8W8Mwdci/HUvqCVq8xaJqF7z08S/LRq1M9kS0jRfJk1/f/CwUyQAr6YgsOLw==}
+  /vite/2.7.9:
+    resolution: {integrity: sha512-CyopIJIRrc26Wnbkch5BCHFhQodzeV4jjSegLAEw1RImvXSuoOo2SfpEW9zRVi188WmjJwCqCaoG25C0r4nekw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
