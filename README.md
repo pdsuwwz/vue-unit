@@ -8,3 +8,46 @@
 [![License](https://img.shields.io/github/license/pdsuwwz/vite-starter?color=blue)](https://github.com/pdsuwwz/vite-starter/blob/master/LICENSE)
 
 Unit Test for Vue
+
+
+> For Typescript: https://github.com/pdsuwwz/vue-unit-ts
+
+## Environment Support
+
+* Jest 28.x
+* Vue 3.x
+* Node >= 14.19.x
+
+## Install
+
+Install node dependencies in all packages
+
+```bash
+pnpm install
+```
+
+## Run
+
+Local Development
+
+```bash
+pnpm dev
+```
+
+## Test
+
+Unit Testing
+
+```bash
+pnpm test
+```
+
+Test code coverage
+
+```bash
+pnpm test:coverage
+```
+
+## 😎 Awesome
+
+* [awesome-vite](https://github.com/pdsuwwz/awesome-vite)
