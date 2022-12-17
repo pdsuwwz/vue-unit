@@ -7,14 +7,14 @@
 [![codecov](https://codecov.io/gh/pdsuwwz/vue-unit/branch/main/graph/badge.svg)](https://codecov.io/gh/pdsuwwz/vue-unit)
 [![License](https://img.shields.io/github/license/pdsuwwz/vite-starter?color=blue)](https://github.com/pdsuwwz/vite-starter/blob/master/LICENSE)
 
-Unit Test for Vue
+Unit Test for Vue 3.x + Vite 4.x
 
 
 > For Typescript: https://github.com/pdsuwwz/vue-unit-ts
 
 ## Environment Support
 
-* Jest 28.x
+* Jest 29.x
 * Vue 3.x
 * Node >= 14.19.x
 
